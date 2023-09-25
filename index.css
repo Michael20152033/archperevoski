@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: 'Montserrat';
+    background: #0d0e10;
+    min-height: 100vh;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+p {
+    margin: 20px 0;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mrg-50 {
+    margin-bottom: 50px;
+}
